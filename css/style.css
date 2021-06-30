@@ -74,9 +74,13 @@ header .container .float-left {
 }
 .hero-content h1 {
     margin-bottom: 25px;
+    font-size: 50px;
 }
 .hero-content p {
     margin-bottom: 20px;
+}
+.hero-content p, .hero-content .hero-buttons {
+    font-size: 18px;
 }
 .hero-buttons .browser {
     margin-left: 20px;
