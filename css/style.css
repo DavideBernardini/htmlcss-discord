@@ -6,6 +6,10 @@
 }
 
 /* common */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -16,8 +20,8 @@
   display: table;
 }
 button {
-    padding: 12px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 25px;
     border: none;
 }
 
@@ -26,19 +30,15 @@ header {
     background-color: rgb(49, 97, 224);
     padding: 20px 0;
 }
-
 header *:not(.login button) {
     color: white;
 }
-
 header .container .float-left {
     float: left;
 }
-
 .logo-img {
     width: 25%;
 }
-
 .main-nav {
     width: 50%;
     text-align: center;
@@ -51,8 +51,37 @@ header .container .float-left {
 .main-nav li a {
     text-decoration: none;    
 }
-
 .login {
     width: 25%;
     text-align: right;
 }
+
+/* corpo */
+.hero {
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover; 
+    position: relative;
+}
+.hero-content {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.hero-content h1 {
+    margin-bottom: 25px;
+}
+.hero-content p {
+    margin-bottom: 20px;
+}
+.hero-buttons .browser {
+    margin-left: 20px;
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
+
+
