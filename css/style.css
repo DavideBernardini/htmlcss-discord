@@ -7,6 +7,52 @@
 
 /* common */
 .container {
-    max-width: 1000px;
+    width: 80%;
     margin: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* Intestazione */
+header {
+    background-color: rgb(49, 97, 224);
+    padding: 20px 0;
+}
+
+header *:not(.login button) {
+    color: white;
+}
+
+header .container .float-left {
+    float: left;
+}
+
+.logo-img {
+    width: 25%;
+}
+
+.main-nav {
+    width: 50%;
+    text-align: center;
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.main-nav li a {
+    text-decoration: none;    
+}
+
+.login {
+    width: 25%;
+    text-align: right;
 }
