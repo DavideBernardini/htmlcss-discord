@@ -9,6 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
+    font-size: 18px;
 }
 .container {
     width: 80%;
@@ -24,17 +25,17 @@ button {
     border-radius: 25px;
     border: none;
 }
+.float-left {
+    float: left;
+}
 
 /* Intestazione */
 header {
-    background-color: rgb(49, 97, 224);
+    background-color: rgba(37,94,233,255);
     padding: 20px 0;
 }
 header *:not(.login button) {
     color: white;
-}
-header .container .float-left {
-    float: left;
 }
 .logo-img {
     width: 25%;
@@ -54,6 +55,9 @@ header .container .float-left {
 .login {
     width: 25%;
     text-align: right;
+}
+.logo-img, .main-nav ul, .login button {
+    vertical-align: middle;
 }
 
 /* corpo */
@@ -79,13 +83,24 @@ header .container .float-left {
 .hero-content p {
     margin-bottom: 20px;
 }
-.hero-content p, .hero-content .hero-buttons {
-    font-size: 18px;
-}
 .hero-buttons .browser {
     margin-left: 20px;
     background-color: rgb(35, 39, 42);
     color: white;
 }
+.space {
+    height: 750px;
+}
+.section-image, .section-caption {
+    width: 50%;
+}
+.image {
+    width: 300px;
+}
+.caption {
+    
+}
+
+
 
 
