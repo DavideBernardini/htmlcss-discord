@@ -32,13 +32,21 @@ button {
 /* Intestazione */
 header {
     background-color: rgba(37,94,233,255);
-    padding: 20px 0;
+    height: 95px;
+    line-height: 95px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
 }
 header *:not(.login button) {
     color: white;
 }
 .logo-img {
     width: 25%;
+}
+.logo-img img {
+    vertical-align: middle;
 }
 .main-nav {
     width: 50%;
@@ -55,6 +63,9 @@ header *:not(.login button) {
 .login {
     width: 25%;
     text-align: right;
+}
+.login button {
+    line-height: normal;
 }
 .logo-img, .main-nav ul, .login button {
     vertical-align: middle;
